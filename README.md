@@ -5,16 +5,18 @@ RoyaltyShareNFT is a decentralized application built on Ethereum that allows art
 - [Contract Overview](#contract-overview) 
 - [Setup and Installation](#setup-and-installation) 
 - [Usage](#usage)  
-- [Testing on Remix](h#testing-on-remix) 
-- [Functions](#functions)  
-- [Constructor](#constructor) 
-- [mintImage](#mintimage) 
-- [useImage](#useimage) 
-- [createTrade](#createtrade) 
-- [acceptTrade](#accepttrade) 
-- [cancelTrade](#canceltrade) 
-- [makePriceSuggestion](#makepricesuggestion) 
-- [acceptPriceSuggestion](#acceptpricesuggestion)
+    - [Testing on Remix](h#testing-on-remix) 
+- [Base Functions](#base-functions)  
+    - [Constructor](#constructor) 
+    - [mintImage](#mintimage) 
+    - [useImage](#useimage)
+- [Trade Functions](#trade-functions)
+    - [createTrade](#createtrade) 
+    - [acceptTrade](#accepttrade) 
+    - [cancelTrade](#canceltrade)
+- [Price Suggestion Functions](#price-suggestion-functions)
+    - [makePriceSuggestion](#makepricesuggestion) 
+    - [acceptPriceSuggestion](#acceptpricesuggestion)
 ## Contract Overview
 
 The smart contract includes the following key features:
@@ -23,7 +25,7 @@ The smart contract includes the following key features:
 3. Creating, accepting, and canceling trades between buyers and sellers.
 4. Suggesting and accepting price changes for the NFTs.
 ## Setup and Installation
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 
